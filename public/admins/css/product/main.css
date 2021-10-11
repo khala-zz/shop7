@@ -1,0 +1,9 @@
+.photo-wrapper {
+    text-align: center;
+    border: 2px solid #ccc;
+    margin: 8px;
+  }
+  .photo_preview {
+    width: 90px;
+    height: 130px;
+}

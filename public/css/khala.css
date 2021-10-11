@@ -1,0 +1,1065 @@
+ /*@font-face {
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: normal;
+  font-display: auto;
+  src: url("../../fonts/fa-brands-400.eot");
+  src: url("../../fonts/fa-brands-400d41d.eot?#iefix") format("embedded-opentype"), 
+  url("../../fonts/fa-brands-400.woff2") format("woff2"), url("../fonts/fa-brands-400.html") format("woff"), 
+  url("../../fonts/fa-brands-400.ttf") format("truetype"), url("../../fonts/fa-brands-400.svg#fontawesome") format("svg"); }*/
+@font-face{
+    font-family:'donald';
+    src:url("../fonts/donald-icon115b.eot?5gap68");
+    src:url("../fonts/donald-icon115b.eot?5gap68#iefix") format("embedded-opentype"),
+    url("../fonts/donald-icon115b.ttf?5gap68") format("truetype"),
+    url("../fonts/donald-icon115b.woff?5gap68") format("woff"),
+    url("../fonts/donald-icon115b.svg?5gap68#donald-icon") format("svg");
+    font-weight:normal;font-style:normal;font-display:block}
+.vertical-menu-wrap-khala {
+    width: 100%;
+    background: #fff;
+      z-index: 9999;
+  }
+.toggle-btn {
+    display: block;
+    position: absolute;
+    padding: 6px;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: .6;
+    }
+.toggle-btn::before {
+    content: "\f054";
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Font Awesome 5 Free';
+    line-height: 1;
+    transition: transform .5s;
+}
+.main-heading h2::before {
+   
+    background: #ef1e1e;
+}
+
+.price-filter .ui-widget.ui-widget-content {
+    border: 1px solid #ef1e1e;
+   }
+.price-filter .ui-widget-header {
+    border: 0 solid #ddd;
+    background: #ef1e1e;
+    
+    }  
+.sidebar-widget .sidebar-widget-list ul li:hover a{
+    color:#ef1e1e;
+}
+.page-item.active .page-link {
+    
+    background-color: #ef1e1e;
+    border-color: #ef1e1e;
+    }
+.page-link {
+    
+    color: #ef1e1e;
+    
+    }
+.submit-khala:hover {
+    background-color: #253237;
+    color: #fff;
+}
+.submit-khala  {
+    border: none;
+    background-color: #ef1e1e;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    
+    line-height: 1;
+    padding: 10px 10px;
+    margin-top: 15px;
+    outline: none;
+    -webkit-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+    border-radius: 30px;
+}
+.active-khala{
+    color: #ef1e1e!important;
+}
+
+.breadcrumb-links li a:hover {
+    color: #ef1e1e;
+}
+.login-register-wrapper .login-register-tab-list a.active h4 {
+    color: #ef1e1e;
+}
+.login-register-wrapper .login-form-container .login-register-form form .button-box button:hover {
+    background: #ef1e1e;
+    color: #fff;
+}
+.color-cate-product-detail{
+    color: #253237;
+    font-weight: 400;
+}
+.reference a:hover{
+    color: #ef1e1e;
+}
+/* danh cho xuat hien mau cho detail product */
+.Blue{
+    background-color: blue!important;
+}
+.Red{
+    background-color: red!important;
+}
+.Yellow{
+    background-color: yellow!important;
+}
+.Black{
+    background-color: black!important;
+}
+.White{
+    background-color: white!important;
+}
+.Green{
+    background-color: green!important;
+}
+.Brown{
+    background-color: brown!important;
+}
+.Orange{
+    background-color: orange!important;
+}
+.Pink{
+    background-color: pink!important;
+}
+.Gray{
+    background-color: gray!important;
+} 
+.Purple{
+    background-color: purple!important;
+}
+.color-active{
+    border: 2px solid #434A54!important;
+}
+/* nut tang giam so luong gio hang*/
+.cart-table-content table tbody > tr td.product-quantity .cart-plus-minus-khala {
+    display: inline-block;
+    height: 40px;
+    padding: 0;
+    position: relative;
+    width: 110px;
+    }
+.cart-table-content table tbody > tr td.product-quantity .cart-plus-minus-khala input.cart-plus-minus-box {
+    color: #666;
+    float: left;
+    font-size: 14px;
+    height: 40px;
+    margin: 0;
+    width: 110px;
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #e1e1e1;
+    padding: 0;
+    text-align: center;
+}
+
+.cart-table-content table tbody > tr td.product-quantity .cart-plus-minus-khala .dec.qtybutton {
+    border-right: 1px solid #e5e5e5;
+    height: 40px;
+    left: 0;
+    padding-top: 8px;
+    top: 0;
+}
+.cart-table-content table tbody > tr td.product-quantity .cart-plus-minus-khala .qtybutton {
+    color: #666;
+    cursor: pointer;
+    float: inherit;
+    font-size: 16px;
+    margin: 0;
+    position: absolute;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 20px;
+    text-align: center;
+}
+.cart-table-content table tbody > tr td.product-quantity .cart-plus-minus-khala .inc.qtybutton {
+    border-left: 1px solid #e5e5e5;
+    height: 40px;
+    padding-top: 9px;
+    right: 0;
+    top: 0;
+}
+
+.cart-table-content table tbody > tr td.product-quantity .cart-plus-minus-khala .qtybutton a{
+color:#ef1e1e; 
+    }
+.cart-table-content table tbody > tr td.product-remove a:hover,.read-review a:hover,.single-my-account h3.panel-title a:hover {
+    color: #ef1e1e;
+}
+.grand-totall h4.grand-totall-title,.your-order-area .your-order-wrap .your-order-product-info .your-order-total ul li.total-amount-checkout{
+    color: #ef1e1e;
+}
+.cart-btn-2,.grand-totall a{
+    background-color: #ef1e1e;
+}
+.cart-shiping-update-wrapper .cart-shiping-update > a:hover,
+.your-order-area .Place-order > a,
+.cart-shiping-update-wrapper .cart-clear > a:hover{
+    background-color: #ef1e1e;
+}
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+/* order */
+.order-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.1rem;
+    font-weight: 700;
+    color: #222;
+    padding: 3rem;
+    border: 2px solid #e1e1e1;
+    border-radius: 3px;
+}
+.order-message i {
+    font-size: 2.4rem;
+    color: #a8c26e;
+    margin-top: -.1rem;
+    margin-right: 0.5rem;
+    }
+.order-results {
+    display: flex;
+    padding: 4rem 0rem;
+}
+.overview-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.2rem;
+    flex: 1;
+    }
+@media only screen and (max-width: 767px) {
+  .order-results {
+    display: flex;
+    flex-direction: column;
+    }
+  .overview-item {
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 1rem;
+
+    }
+    .overview-item span {
+    width: 50%;
+    text-align: left;
+    } 
+}
+
+.title-simple {
+    font-weight: 700;
+    display: block;
+    margin-bottom: 2.6rem;
+    text-transform: uppercase;
+}
+
+.order-details {
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    padding: 0 3rem;
+}
+.order-details-table{
+    width: 100%;
+}
+.order-details-table thead {
+    border-bottom: 1px solid #e1e1e1;
+}
+.summary-subtitle {
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: -.01em;
+    color: #222;
+    margin-bottom: 0;
+    padding: 1rem 0;
+}
+.order-details-table tbody tr:first-child td {
+    padding-top: 1rem;
+}
+
+.product-name {
+    margin-bottom: .6rem;
+    font-family: inherit;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #222;
+    padding-right: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.order-details-table .product-price {
+    font-size: 1.4rem;
+    color: #666;
+    font-weight: 400;
+    padding-top: 1.5rem;
+}
+
+.order-details-table .product-name {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 3.5;
+}
+.order-details-table .summary-subtotal-price, .order-details-table .product-price {
+    text-align: right;
+}
+
+.product-price {
+    
+    margin-bottom: .6rem;
+    
+}
+.summary-subtotal {
+    border-bottom: 1px solid #e1e1e1;
+}
+.summary-subtotal-price {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #666;
+    margin-bottom: 0;
+    font-family: Poppins,sans-serif;
+}
+.order-details-table .summary-subtotal-price {
+    font-weight: 600;
+}
+
+.summary-subtitle {
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: -.01em;
+    color: #222;
+    margin-bottom: 0;
+    padding: 2rem 0;
+}
+.summary-total-price {
+    font-size: 2rem;
+    letter-spacing: -0.025em;
+    font-weight: 700;
+    color: #222;
+    text-align: right;
+    margin-bottom: 0;
+    font-family: Poppins,sans-serif;
+}
+.address-info {
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.pt-8{
+    padding-top: 4rem !important;
+}
+
+.cart-shiping-update > a {
+    background-color: #f2f2f2;
+    border-radius: 50px;
+    color: #253237;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    padding: 18px 63px 17px;
+    text-transform: uppercase;
+}
+.cart-shiping-update > a:hover,.single-my-account .myaccount-info-wrapper .billing-back-btn .billing-btn button:hover{
+    background-color: #ef1e1e;
+    color: white;
+}
+
+.btn-khala{
+    background-color: #ef1e1e;
+    color: white;
+    border-color: #ef1e1e;
+}
+.btn-khala:hover {
+    color: #fff;
+    background-color: #253237;
+    border-color: #253237;
+}
+
+/* rating */
+.single-review {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 0 50px;
+}
+.description-review-bottom {
+    font-size: 15px;
+    line-height: 24px;
+    text-align: left;
+}
+.single-review .review-top-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 0 0 10px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.single-review .review-top-wrap .review-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.single-review .review-top-wrap .review-left .review-name {
+    margin-right: 25px;
+}
+.single-review .review-top-wrap .review-left .rating-product {
+    line-height: 1;
+}
+.rating-product {
+    margin-bottom: 6px;
+}
+.mb-0, .my-0 {
+    margin-bottom: 0 !important;
+}
+.single-review .review-img {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 90px;
+    flex: 0 0 90px;
+    margin: 0 15px 0 0;
+}
+
+.ratting-form-wrapper .ratting-form form .star-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 6px 0 20px;
+}
+.ratting-form-wrapper .ratting-form form .star-box span {
+    margin: 0 15px 0 0;
+}
+.rating-stars .star-1 {
+    z-index: 10;
+}
+.rating-stars .star-2 {
+    z-index: 9;
+}
+.rating-stars .star-3 {
+    z-index: 8;
+}
+.rating-stars .star-4 {
+    z-index: 7;
+}
+
+.rating-stars {
+    display: flex;
+    position: relative;
+    height: 24px;
+    font-size: 2rem!important;
+    margin:0 auto;
+}
+.rating-stars a {
+    color: rgba(0,0,0,0.16);
+    text-indent: -9999px;
+    letter-spacing: 1px;
+    width: 26px;
+    letter-spacing: .4em;
+    font-size: 2rem!important;
+}
+.rating-stars .star-1::before {
+    width: 20%;
+}
+.rating-stars .star-2::before {
+    width: 40%;
+}
+.rating-stars .star-3::before {
+    width: 60%;
+}
+.rating-stars .star-4::before {
+    width: 80%;
+}
+.rating-stars .star-5::before {
+    content: "\e94b\e94b\e94b\e94b\e94b";
+}
+.rating-stars a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 24px;
+    line-height: 1;
+    font-family: 'Donald';
+    text-indent: 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.rating-stars a.active::before, .rating-stars a:hover::before {
+    content: "\e94b\e94b\e94b\e94b\e94b";
+    color: #d26e4b;
+}
+
+.rating-stars a.active-tab-review::before, .rating-stars a:hover::before {
+    content: "\e94b\e94b\e94b\e94b\e94b";
+    color: #d26e4b;
+}
+/* thiet lap canh giua cho cai block hien thi san pham */
+.padding-left-start-khala{
+    display: flex;
+    align-items: center;
+   
+    line-height: 1;
+    margin-bottom: 1rem;
+    font-size: 11px;
+    letter-spacing: .4em;
+}
+.description-review-topbar.nav a.active::after {
+    background: #ef1e1e;
+    
+}
+
+.pro-details-rating-wrap {
+    display: flex;
+    margin: 10px 0 0;
+}
+
+/* ngoi sao nho */
+.small-start > .rating-stars {
+    
+    font-size: 1rem;
+}
+.small-start > .rating-stars a {
+    width: 18px;
+}
+
+/* search */
+.left-search-khala{
+    text-align: left!important;
+}
+.left-search-khala > .padding-left-start-khala > .rating-stars{
+    margin: 0;
+}
+/* de y thang nay nice-select cho tim kiem */
+.search-category .nice-select .list{
+    left:0;
+}
+a:hover{
+    color: #ef1e1e;
+}
+
+/* bg breadcrumb */
+.breadcrumb-area {
+    text-align: center;
+    position: relative;
+    padding: 110px 0;
+    background: url(../images/breadcrumb-bg/breadcrumb-bg.jpg) no-repeat;
+        background-size: auto;
+    background-size: cover;
+}
+
+/*menu*/
+.main-navigation ul li ul.mega-menu-wrap > li ul li{
+    
+    
+    float:left;
+}
+
+.menu-con-khala li{
+    float: none!important;
+}
+
+.menu-khala-0{
+    padding-left: 10px!important;
+}
+.menu-khala-1{
+    padding-left: 10px!important;
+}
+
+
+.home-6.home-8 .main-navigation ul li ul.mega-menu-wrap {
+    left: 0px;
+}
+
+/* tin tuc */
+.tag-list li a:hover,
+a.read-more-btn i,
+.blog-title a:hover,
+.blog-page-meta li a:hover,
+.media-side a:hover,.category-post li a:hover,.blog-post-content-inner .read-more-btn:hover{
+    
+    color: #ef1e1e;
+}
+.blog-related-post .section-title.underline-shape::after {
+    bottom: -25px;
+    background: #ef1e1e;
+}
+.sidebar-widget-tag li a:hover,.contact-form .contact-form-style button{
+    background-color: #ef1e1e;
+}
+/*add to cart popup*/
+.ss-loading {
+  z-index: 999;
+  background: white url('../images/ajax-loader2ab5.gif') center 14px no-repeat;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  position: fixed;
+  top: 50% !important;
+  bottom: auto;
+  left: 50%;
+  right: auto;
+  width: 56px;
+  height: 56px;
+  margin-left: -28px;
+  margin-top: -28px;
+  overflow: hidden;
+  padding: 0;
+  text-align: center;
+  text-indent: -999em;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px; }
+
+@media only screen and (max-width: 479px) {
+  .order-message {
+    font-size: 1.5rem;
+    }
+   
+    .overview-item {
+    font-size: 0.9rem;
+    }
+
+    .order-details {
+    padding: 0 1.5rem;
+    }
+
+    .order-details-table tbody .product-name {
+    white-space: pre-wrap;
+    line-height: 2;
+}
+    
+}
+
+/*lam cho menu shop6*/
+.sidebar-content ul.list-menu > li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.sidebar-content ul.list-menu > li .caret {
+    float: right;
+    position: relative;
+    top: 8px;
+}
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid \9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+.sidebar-content ul.list-menu > li ul li {
+    padding: 5px 15px;
+}
+.sidebar-content ul.list-menu > li ul li a::before {
+    content: "";
+    height: 5px;
+    width: 5px;
+    background: #666;
+    position: absolute;
+    top: 50%;
+    margin-top: -3px;
+    left: -15px;
+}
+.menu-a-before{
+    position: relative;
+}
+/* checkout page shop6 */
+/*lam cho nut checkbox nho lai trong phan checkout shop6 */
+.checkout-toggle{
+    width: auto!important;
+    height: auto!important;
+    line-height: auto!important;
+}
+.your-order-area .your-order-wrap {
+    padding: 38px 45px 44px;
+    background: #f6f6f6;
+}
+.your-order-area .your-order-wrap .your-order-product-info .your-order-top ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.your-order-area .your-order-wrap .your-order-product-info .your-order-top ul li {
+    font-size: 16px;
+    font-weight: 700;
+    list-style: outside none none;
+    color: #253237;
+}
+.your-order-area .your-order-wrap .your-order-product-info .your-order-middle {
+    border-bottom: 1px solid #dee0e4;
+    border-top: 1px solid #dee0e4;
+    margin: 29px 0;
+    padding: 19px 0 18px;
+}
+.your-order-area .your-order-wrap .your-order-product-info .your-order-middle ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 0 0 10px;
+}
+.your-order-area .your-order-wrap .your-order-product-info .your-order-bottom ul {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.your-order-area .your-order-wrap .your-order-product-info .your-order-bottom ul li.your-order-shipping {
+    font-size: 16px;
+    color: #253237;
+    font-weight: 600;
+}
+.your-order-area .your-order-wrap .your-order-product-info .your-order-total {
+    border-bottom: 1px solid #dee0e4;
+    border-top: 1px solid #dee0e4;
+    margin: 18px 0 33px;
+    padding: 17px 0 19px;
+}
+.your-order-area .your-order-wrap .your-order-product-info .your-order-total ul {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.your-order-area .your-order-wrap .your-order-product-info .your-order-total ul li.order-total {
+    font-weight: 700;
+    color: #212121;
+    font-size: 18px;
+}
+/*mac dinh khong hien thi div giao hang den dia chi khac*/
+.open-toggle, .open-toggle2 {
+    display: none;
+}
+/*doi icon thanh gio hang khi add to cart*/
+.fa-khala:before {
+    content: "\f290";
+}
+/*trang account*/
+.mb-10 {
+    margin-bottom: 5rem !important;
+}
+.account .nav-item.show .nav-link::before, .account .nav-item .nav-link.active::before {
+    visibility: visible;
+    opacity: 1;
+}
+.pt-1 {
+    padding-top: .5rem !important;
+}
+.tab-vertical {
+    display: flex;
+    background-color: #fff;
+}
+.account .nav-tabs {
+    width: 23.7%;
+    border-right: none;
+}
+.tab-vertical .nav-tabs {
+    flex-flow: column nowrap;
+    width: 27.8%;
+    border: 0;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+    border-right: 2px solid #ebebeb;
+}
+.nav-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #ebebeb;
+}
+.mb-4 {
+    margin-bottom: 2rem !important;
+}
+.account .nav-item {
+    border-bottom: 1px solid #eee;
+    color: #222;
+}
+.tab-vertical .nav-item {
+    margin-right: 0;
+}
+.account .nav-item a {
+    display: block;
+    padding: 1.4rem 2px;
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.4rem;
+    letter-spacing: 0;
+    line-height: 1;
+    text-transform: none;
+}
+.account .nav-link {
+    transition: color .3s, padding .3s;
+}
+.tab-vertical .nav-link {
+    position: relative;
+    margin-right: -2px;
+    padding-left: 2rem;
+    width: calc(100% + 2px);
+    border: 0;
+    text-align: left;
+}
+.account .nav-link::before {
+    content: '\e97e';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+    visibility: hidden;
+    font-family: 'Donald';
+    font-size: 1.4rem;
+    transition: opacity .3s, visibility .3s;
+}
+.tab-vertical .nav-link::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    width: 2px;
+    height: calc(100% - 6px);
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    z-index: 1;
+}
+.account .nav-item.show .nav-link, .account .nav-item .nav-link.active {
+    padding-left: 2.2rem;
+    color: #26b;
+}
+.account .tab-content {
+    width: auto;
+    flex: 1;
+    padding-left: 3rem;
+}
+.tab-content {
+    position: relative;
+    background-color: #fff;
+}
+.tab-content > .tab-pane:not(.active) {
+    overflow: hidden;
+    visibility: hidden;
+}
+.account .tab-pane {
+    padding-top: .3rem;
+}
+.tab-vertical .tab-pane {
+    padding: 1.7rem 0;
+        padding-top: 1.7rem;
+}
+.tab-content > .tab-pane {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 0 !important;
+    opacity: 0;
+    z-index: -1;
+    transition: visibility .3s, opacity .3s;
+}
+.tab-pane {
+    padding: 2.3rem 0;
+    line-height: 1.72;
+    color: #666;
+}
+.account p {
+    font-family: Poppins,sans-serif;
+    line-height: 2.15;
+}
+.mb-2 {
+    margin-bottom: 1rem !important;
+}
+.text-secondary {
+    color: #d26e4b !important;
+}
+.card-address {
+    background: #f6f7f9;
+    border: 1px solid #e1e1e1;
+}
+.card {
+    background-color: #fff;
+}
+.card-address .card-body {
+    padding: 2.5rem;
+}
+.account label {
+    display: block;
+    padding-left: .2rem;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    line-height: 1;
+}
+.account .form-control:not(:focus) {
+    background-color: #f6f7f9;
+}
+.account .form-control {
+    font-size: 1.3rem;
+    font-family: Poppins,sans-serif;
+    transition: background-color .3s, border-color .3s;
+    color: #999;
+}
+.tab-content > .active {
+    position: relative;
+    height: auto !important;
+    opacity: 1;
+    z-index: auto;
+}
+
+.card-header {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -.01em;
+    line-height: 1;
+    color: #222;
+}
+
+.accordion-boxed .card-header a, .accordion-boxed .card-body {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.card-header a {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 1.8rem .5rem;
+}
+/*.accordion-boxed .card-header a::after {
+    right: 2rem;
+}
+.accordion-plus .card-header a::after {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #666;
+}
+
+.accordion-plus .expand::after {
+    content: '\e96d';
+}*/
+.card-header a::after {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: .4rem;
+    font-family: 'Donald';
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    color: #222;
+}
+
+.account-order-toggle-khala::after {
+    right: 2rem;
+}
+.account-order-toggle-khala::after {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #666;
+}
+
+.account-order-toggle-khala::after {
+    content: '\e96d';
+}
+/*danh cho dien thoai trang account*/
+@media (max-width: 767px){
+.account .nav-tabs {
+    width: 100%;
+}
+.tab-vertical .nav-tabs {
+    border: 0;
+}
+.tab-vertical .tab-content, .tab-vertical .nav-tabs {
+    width: 100%;
+}
+.tab-vertical {
+    flex-flow: column nowrap;
+}
+.account .tab-content {
+    padding-left: 0;
+}
+/*ghi de cho table responsive phan cart va account*/
+body .__table-responsive tfoot td.title:after,body table tfoot td.title:after,body .__table-responsive tbody td.title:after,body table tbody td.title:after {
+        content: 'Sản phẩm '
+    }
+
+    body .__table-responsive tfoot td.remove:after,body table tfoot td.remove:after,body .__table-responsive tbody td.remove:after,body table tbody td.remove:after {
+        content: 'Xóa '
+    }
+
+    body .__table-responsive tfoot td.price:after,body table tfoot td.price:after,body .__table-responsive tbody td.price:after,body table tbody td.price:after {
+        content: 'Giá'
+    }
+
+    body .__table-responsive tfoot td.total:after,body table tfoot td.total:after,body .__table-responsive tbody td.total:after,body table tbody td.total:after {
+        content: 'Tổng'
+    }
+
+    body .__table-responsive tfoot td.quantity:after,body table tfoot td.quantity:after,body .__table-responsive tfoot td.qty:after,body table tfoot td.qty:after,body .__table-responsive tbody td.quantity:after,body table tbody td.quantity:after,body .__table-responsive tbody td.qty:after,body table tbody td.qty:after {
+        content: 'Số lượng'
+    }
+    /*trang account*/
+    body .__table-responsive tfoot td.payment-order-khala:after,body table tfoot td.payment-order-khala:after,body .__table-responsive tbody td.payment-order-khala:after,body table tbody td.payment-order-khala:after {
+        content: 'Thanh toán';
+
+    }
+    body .__table-responsive tfoot td.total-order-khala:after,body table tfoot td.total-order-khala:after,body .__table-responsive tbody td.total-order-khala:after,body table tbody td.total-order-khala:after {
+        content: 'Tổng tiền';
+        
+    }
+    body .__table-responsive tfoot td.day-order-khala:after,body table tfoot td.day-order-khala:after,body .__table-responsive tbody td.day-order-khala:after,body table tbody td.day-order-khala:after {
+        content: 'Ngày';
+        
+    }
+    body .__table-responsive tfoot td.code-order-khala:after,body table tfoot td.code-order-khala:after,body .__table-responsive tbody td.code-order-khala:after,body table tbody td.code-order-khala:after {
+        content: 'Đơn hàng';
+        
+    }
+    body .__table-responsive tfoot td.product-order-khala:after,body table tfoot td.product-order-khala:after,body .__table-responsive tbody td.product-order-khala:after,body table tbody td.product-order-khala:after {
+        content: 'Sản phẩm';
+        
+    }
+
+    
+}
